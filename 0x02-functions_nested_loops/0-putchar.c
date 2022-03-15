@@ -7,15 +7,8 @@
 */
 int main(void)
 {
-char word[9] = "_putchar\n";
-  int c;
-  for ( c = 0; c < 9; c++)
-{
-    _putchar(word[c]);
+  char c = "_putchar\n";
+  
+  return (0);
+  
 }
-
-return (0);
-
-}
-
-
