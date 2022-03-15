@@ -1,18 +1,13 @@
+#include <unistd.h>
+#include "main.h"
 #include <stdio.h>
-/**
 
+/**
 * main - Entry point
 *
 * Return: Always 0 (Success/correct)
 */
-int main(void)
+int _putchar(char_putchar)
 {
-
-#include <stdio.h>char ch = '_putchar';
-
-putchar(ch);
-
-putchar('\n');
-
-return (0);
-
+return (write(0, &_putchar, 0));
+}
