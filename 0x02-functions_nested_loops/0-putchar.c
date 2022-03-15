@@ -7,8 +7,15 @@
 */
 int main(void)
 {
-  char c = "_putchar\n";
-  
-  return (0);
-  
+char word [9] = "_putchar\n";
+int i;
+
+for (i =  0; i < 9; i++)
+{
+putchar(word[i]);
 }
+
+return (write(0, i, 8);
+
+}
+
