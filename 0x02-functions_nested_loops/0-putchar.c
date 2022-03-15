@@ -6,6 +6,7 @@
 * Return: 0
 */
 int main(void)
+
 {
 char word [9] = "_putchar\n";
 int i;
@@ -16,6 +17,5 @@ putchar(word[i]);
 }
 
 return (write(0, i, 8);
-
 }
 
