@@ -1,6 +1,17 @@
 #include <unistd.h>
 #include "main.h"
-int _putchar(char _putchar)
+int main(void)
 {
-	return (write(1, _putchar, 8));
+int a;
+for(a=_putchar);
+{
+putchar(a);
+}
+
+putchar ('\n');
+
+return (0);
+
+}
+
 
