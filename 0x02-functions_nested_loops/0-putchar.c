@@ -7,7 +7,12 @@
 *
 * Return: Always 0 (Success/correct)
 */
-int _putchar(char_putchar)
+int main(void)
 {
-return (write(0, &_putchar, 0));
+char ch = '_putchar';
+
+putchar(ch);
+
+return (0);
+
 }
