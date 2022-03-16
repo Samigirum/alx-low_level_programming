@@ -6,6 +6,7 @@
  *@c: The int to print
  * Return: Always 0.
  */
+
 int _isalpha(int c)
 
 {
