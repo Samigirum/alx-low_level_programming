@@ -1,23 +1,20 @@
 #include "main.h"
-#include <unistd.h>
 /**
-* main -entry point 
-* 
+* print_alphabet - print alphabet lowercase
 *
-return: always 0
+Return: always 0
 */
-int main(void)
-
+void print_alphabet(void)
 {
 char alphabet;
-init i;
-for (i = 'a'; i <='z'; i++)
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-_putchar(i);
+_putchar(alphabet);
 }
 
 _putchar('\n');
 
-return (write(0, i, 1));
-
 }
+
+
