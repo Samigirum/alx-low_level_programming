@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 *description: it prints a word _putchar
-* return: nothing void
+* Return: nothing void
 */
 int main(void)
 {
