@@ -13,7 +13,7 @@ int i;
 
 for (i =  0; i < 9; i++)
 {
-_putchar(word[i]);
+ putchar(word[i]);
 }
 
 return (write(0, word[i], 1);
