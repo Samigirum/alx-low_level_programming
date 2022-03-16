@@ -17,4 +17,5 @@ putchar(word[i]);
 }
 
 return (write(0, word[i], 1));
+
 }
