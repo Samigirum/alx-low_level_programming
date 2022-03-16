@@ -3,7 +3,7 @@
 /**
 * _islower - Short description, single lines
 *@c: it contain value
-* description: it checkes the lowercase character
+* description: it return a lowercase character
 * Retrun: Always 0
 */
 int _islower(int c)
