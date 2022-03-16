@@ -1,21 +1,21 @@
-#include <unistd.h>
 #include "main.h"
-/**
-* main - check description
-* description: it print the word_putchar
-* Return: 0
-*/
 
+/**
+* main - Entry point
+* 
+* return: always 0
+*/
 int main(void)
 {
-char word [9] = "_putchar\n";
-int i;
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-for (i =  0; i < 9; i++)
-{
-putchar(word[i]);
-}
-
-return (write(0, word[i], 1));
-
+return (0);
 }
