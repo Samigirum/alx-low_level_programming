@@ -16,7 +16,7 @@ while (count < 10)
 {
 for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 {
-_putchar(alpahbet);
+_putchar(alphabet);
 }
 
 count ++;
