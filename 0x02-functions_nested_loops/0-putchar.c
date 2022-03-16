@@ -13,8 +13,8 @@ int i;
 
 for (i =  0; i < 9; i++)
 {
- putchar(word[i]);
+putchar(word[i]);
 }
 
-return (write(0, word[i], 1);
+return (write(0, word[i], 1));
 }
