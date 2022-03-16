@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
-* _islower - Short description, single lines
-*@c: it contain value
-* description: it return a lowercase character
-* Retrun: Always 0
-*/
+ * _islower - Short description, single line
+ * @c: contains value to be compared
+ * Return: Always 0.
+ */
 int _islower(int c)
 
 {
