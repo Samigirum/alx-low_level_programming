@@ -2,7 +2,7 @@
 
 /**
 * print_sign - return 0 letter not lowercase, 1 letter lowercase
-*
+* Description: it prints a sign of a number
 *@n: the int to print
 * Retrun: Always 0.
 */
