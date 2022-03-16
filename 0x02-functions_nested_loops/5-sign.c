@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* print_sign - return 0 letter not lowercase, 1 letter lowercase
-* Description: it prints a sign of a number
+* print_sign - check description
+* Description: return 0 letter not lowercase, 1 letter lowercase
 *@n: the int to print
 * Retrun: Always 0.
 */
