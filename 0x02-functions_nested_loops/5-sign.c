@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_sign - check description
+* print_sign - Entry point
 * Description: return 0 letter not lowercase, 1 letter lowercase
 *@n: the int to print
 * Retrun: Always 0.
