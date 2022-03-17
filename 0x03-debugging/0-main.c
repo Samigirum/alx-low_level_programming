@@ -1,16 +1,15 @@
 #include "main.h"
-
 /**
-* main - main
-* Return: 0
-*/
+ * main - main
+ * Return: 0
+ */
 
 int main(void)
 {
-int n;
-n = 0;
-  
-positive_or_negative(n);
+int i;
+i = 0;
+
+positive_or_negative(i);
 
 return (0);
 
