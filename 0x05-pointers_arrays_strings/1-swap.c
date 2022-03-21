@@ -1,13 +1,17 @@
-#include"main.h"
+#include "main.h"
 /**
-* swap_int - to swap tow integer
-*@a: print int
-*@b: print int
+* swap_int - swap the value of two integer
+*@a: print int a
+*@b: print int b
 * Return: Always 0.
 */
+
 void swap_int(int *a, int *b)
 {
-int iTemp;
-iTemp = *a;
+int f;
+
+f = *a;
 *a = *b;
-*b = itemp;
+*b = f;
+
+}
