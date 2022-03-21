@@ -9,7 +9,7 @@
 void _puts(char *str)
 {
 int m;
-m = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+m = ("I do not fear computers. I fear the lack of them - Isaac Asimov");
 while (str[m] != '\0')
 {
 m++;
