@@ -8,9 +8,12 @@
 
 void _puts(char *str)
 {
+char a;
 int m;
+a = str;
+
 m = ("I do not fear computers. I fear the lack of them - Isaac Asimov");
-while (str[m] != '\0')
+while (a[m] != '\0')
 {
 m++;
 }
