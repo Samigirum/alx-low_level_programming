@@ -11,8 +11,8 @@ void _puts(char *str)
 char a;
 int m;
 a = str;
+m = 0;
 
-m = ("I do not fear computers. I fear the lack of them - Isaac Asimov");
 while (a[m] != '\0')
 {
 m++;
