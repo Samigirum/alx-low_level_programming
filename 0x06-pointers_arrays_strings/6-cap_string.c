@@ -9,7 +9,7 @@
 
 int separator(char c)
 {
-  
+
 switch (c)
 {
 case ' ':
